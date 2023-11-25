@@ -1,0 +1,40 @@
+.main_nav{
+    background: #3D464D;
+    width: 100%;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+.main_nav_div{
+    width: 50%;
+    justify-content: space-around;
+}
+.main_nav_div a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.main_nav_div a:hover{
+    color: #FFD333;
+}
+.nav_cart{
+    width: 25%;
+}
+.nav_cart_p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav_cart_p:first-child{
+    margin-right: 10px;
+}
+.nav_cart_p span:last-child{
+    margin-left: 10px;
+    color: white;
+
+}
+.nav_cart_p span:first-child{
+    color: #FFD333;
+}

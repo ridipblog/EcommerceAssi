@@ -1,0 +1,123 @@
+.main_show_content{
+    width: 100%;
+    margin: 20px 0px;
+}
+.main_show_content_1{
+    width: 90%;
+    justify-content: space-between;
+}
+.main_show_content_div{
+    width: 60%;
+    height: 400px;
+}
+.show_content_div{
+    width: 100%;
+    height: 100%;
+    
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url('../images/women.jpg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    flex-direction: column;
+    flex-flow: column;
+}
+.show_content_div h1{
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+    animation: show_content_heading linear 0.6s;
+}
+@keyframes show_content_heading{
+    from{
+        transform: translateY(-40px);
+    }to{
+        transform: translateY(0px);
+    }
+}
+.show_content_div p{
+    width: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 30px;
+    animation: show_content_para linear 0.6s;
+}
+@keyframes show_content_para{
+    from{
+        transform: translateY(40px);
+    }to{
+        transform: translateY(0px);
+    }
+}
+.show_content_div button{
+    padding: 5px 20px;
+    background: transparent;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    font-size: 18px;
+}
+.main_show_offer{
+    width: 37%;
+    height: 400px;
+    align-content: space-between;
+}
+
+.main_show_offer_div{
+    width: 100%;
+    height: 48%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1)),url('../images/offer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    flex-direction: column;
+    flex-flow: column;
+    transform: rotate(0deg);
+}
+
+.main_show_offer_div p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.main_show_offer_div p:nth-child(2){
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.main_show_offer_div button{
+    background: #FFD333;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.main_show_content_slide{
+    width: 100%;
+    position: relative;
+    bottom: 60px;
+}
+.main_show_content_slide span{
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.main_show_content_slide span:nth-child(1){
+    background-color: white;
+    padding-left: 15px;
+}
