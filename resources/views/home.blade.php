@@ -21,18 +21,18 @@
 </head>
 
 <body>
-    {{-- Header Component  --}}
+    {{-- Header Component --}}
 
     <x-header-component></x-header-component>
 
-    {{-- Navbar Component  --}}
+    {{-- Navbar Component --}}
 
     <x-nav-component></x-nav-component>
 
     {{-- Show Content Component --}}
 
     <x-show-content-component></x-show-content-component>
-    {{-- Service Component  --}}
+    {{-- Service Component --}}
 
     <x-server-component></x-server-component>
 
@@ -42,6 +42,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="https://kit.fontawesome.com/42bb61fedf.js" crossorigin="anonymous"></script>
+    <script src="{{ asset('js/home.js') }}"></script>
 
 </body>
 

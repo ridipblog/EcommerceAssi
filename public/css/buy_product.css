@@ -1,20 +1,24 @@
-.main_product{
+.main_product {
     width: 100%;
     margin: 20px 0px;
 }
-.main_product h1{
+
+.main_product h1 {
     width: 90%;
     border-bottom: 1px solid grey;
     padding-bottom: 10px;
     font-size: 24px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.main_product_div{
+
+.main_product_div {
     margin-top: 10px;
     width: 90%;
     justify-content: space-between;
 }
-.product_div{
+
+.product_div {
+    padding: 20px 0px;
     width: 22%;
     position: relative;
     cursor: pointer;
@@ -22,32 +26,39 @@
     flex-flow: column;
     background: #F5F5F5;
 }
-.product_div_1{
+
+.product_div_1 {
     width: 100%;
 }
-.product_div img{
+
+.product_div img {
     width: 90%;
 }
-.product_para{
+
+.product_para {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.product_para:nth-child(2){
+
+.product_para:nth-child(2) {
     color: rgba(100, 86, 86, 0.652);
     font-size: 22px;
     margin-top: 10px;
 }
-.product_para:nth-child(3){
+
+.product_para:nth-child(3) {
     font-size: 17px;
     color: rgba(100, 10, 86, 0.652);
     margin-top: 10px;
 }
-.product_para:nth-child(4){
+
+.product_para:nth-child(4) {
     font-size: 17px;
     color: rgba(100, 10, 86, 0.652);
     margin-bottom: 10px;
 }
-.main_buy_div{
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+
+.main_buy_div {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
     position: absolute;
     width: 100%;
     left: 0;
@@ -56,21 +67,26 @@
     height: 100%;
     display: none;
     z-index: 99;
+    transition: 1s;
 }
-.main_buy_div span{
+
+.main_buy_div span {
     width: 40px;
     height: 40px;
     display: flex;
     color: #3D464D;
     justify-content: center;
     align-items: center;
+    color: #FFD333;
     border: 1px solid grey;
     margin-left: 5px;
+    background: #243635;
 }
 
-.product_div:hover .main_buy_div{
+.product_div:hover .main_buy_div {
     display: flex;
 }
-.product_div:hover{
-    background: rgba(0,0,0,0.3);
+
+.product_div:hover {
+    background: rgba(0, 0, 0, 0.3);
 }
