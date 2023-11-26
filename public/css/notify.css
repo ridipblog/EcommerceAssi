@@ -1,0 +1,44 @@
+.main_notify {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99;
+    align-content: start;
+    padding: 10px 0px;
+    display: none;
+}
+
+.notify_div {
+    width: 40%;
+    background: white;
+}
+
+.notify_div_1 {
+    width: 70%;
+    padding: 10px 0px;
+
+}
+
+.notify_div_1 p {
+    width: 100%;
+    font-size: 16px;
+    color: red;
+    margin: 5px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.notify_div button {
+    width: auto;
+    padding: 5px 20px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background: #6dd3ce;
+    border: none;
+    display: none;
+}

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="{{ asset('css/show_content.css') }}">
     <link rel="stylesheet" href="{{ asset('css/service.css') }}">
     <link rel="stylesheet" href="{{ asset('css/buy_product.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/cart.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/notify.css') }}">
     <style>
         * {
             padding: 0;
@@ -21,13 +23,18 @@
 </head>
 
 <body>
+
     {{-- Header Component --}}
 
     <x-header-component></x-header-component>
 
     {{-- Navbar Component --}}
+    @php
+    $count=[$count_order,$count_cart];
+    @endphp
+    <x-nav-component :count=$count>
 
-    <x-nav-component></x-nav-component>
+    </x-nav-component>
 
     {{-- Show Content Component --}}
 
@@ -38,12 +45,23 @@
 
     {{-- Buy Product --}}
 
-    <x-buy-product-component></x-buy-product-component>
+    <x-buy-product-component :products=$products>
+
+    </x-buy-product-component>
+
+    {{-- Cart Component --}}
+
+    <x-cart-component></x-cart-component>
+
+    {{-- Notify Component --}}
+    <x-notify-component></x-notify-component>
+
+    {{-- Cart Component --}}
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     <script src="https://kit.fontawesome.com/42bb61fedf.js" crossorigin="anonymous"></script>
     <script src="{{ asset('js/home.js') }}"></script>
-
+    {{-- <script src="{{ asset('js/notify.min.js') }}"></script> --}}
 </body>
 
 </html>

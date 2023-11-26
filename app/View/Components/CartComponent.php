@@ -4,17 +4,16 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class BuyProductComponent extends Component
+class CartComponent extends Component
 {
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public $products;
-    public function __construct($products)
+    public function __construct()
     {
-        $this->products = $products;
+        //
     }
 
     /**
@@ -24,6 +23,6 @@ class BuyProductComponent extends Component
      */
     public function render()
     {
-        return view('components.buy-product-component');
+        return view('components.cart-component');
     }
 }

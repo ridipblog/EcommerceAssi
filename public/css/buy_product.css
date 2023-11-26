@@ -25,6 +25,7 @@
     flex-direction: column;
     flex-flow: column;
     background: #F5F5F5;
+    margin-bottom: 10px;
 }
 
 .product_div_1 {
@@ -66,11 +67,11 @@
     right: 0;
     height: 100%;
     display: none;
-    z-index: 99;
+    z-index: 6;
     transition: 1s;
 }
 
-.main_buy_div span {
+.main_buy_div button {
     width: 40px;
     height: 40px;
     display: flex;
@@ -81,6 +82,7 @@
     border: 1px solid grey;
     margin-left: 5px;
     background: #243635;
+    cursor: pointer;
 }
 
 .product_div:hover .main_buy_div {

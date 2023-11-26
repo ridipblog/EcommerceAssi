@@ -1,0 +1,168 @@
+.main_cart {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    align-content: start;
+    padding: 10px 0px;
+    justify-content: space-around;
+    display: none;
+}
+
+.main_cart_div {
+    width: 95%;
+    background: white;
+    justify-content: space-around;
+    padding: 10px 0px;
+    align-items: start;
+}
+
+.main_cart_head {
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.main_cart_head span:first-child {
+    width: 70%;
+}
+
+.main_cart_head span:last-child {
+    width: 20%;
+    color: #6dd3ce;
+    cursor: pointer;
+}
+
+.main_cart_info {
+    width: 64%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    align-items: start;
+    padding: 10px 0px;
+    justify-content: space-between;
+}
+
+.main_cart_info img {
+    width: 25%;
+    background: #4AAEA9;
+}
+
+.cart_info_div {
+    width: 30%;
+}
+
+.cart_info_div p {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cart_info_div p:nth-child(1) {
+    font-size: 18px;
+    color: grey;
+}
+
+.cart_info_div_1 {
+    width: 30%;
+}
+
+.cart_info_div_1 p {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cart_info_div_1 input,
+select {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid grey;
+    padding: 5px 0px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.cart_submit {
+    width: 30%;
+    align-content: start;
+}
+
+.cart_submit p {
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: grey;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.cart_submit_input {
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.cart_submit_input input,
+button {
+    width: 50%;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: transparent;
+    outline: none;
+    padding: 5px 0px;
+}
+
+.cart_submit_input input {
+    border: 1px solid grey;
+}
+
+.cart_submit_input button {
+    background: #6dd3ce;
+    border: 1px solid #6dd3ce;
+    color: white;
+    cursor: pointer;
+}
+
+.cart_price {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 5px;
+}
+
+.cart_price p {
+    width: 50%;
+}
+
+.cart_price p:nth-child(2) {
+    text-align: right;
+}
+
+.cart_price button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 15px;
+    background: #FFD333;
+    border: 1px solid #FFD333;
+    cursor: pointer;
+}
+
+.cart_price button:nth-child(2) {
+    background: #6dd3ce;
+
+    border: 1px solid #6dd3ce;
+}

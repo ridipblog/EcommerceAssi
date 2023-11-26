@@ -6,7 +6,7 @@
         <a href="">Contact</a>
     </div>
     <div class="flexDiv nav_cart">
-        <p class="nav_cart_p"><span><i class="fa-solid fa-heart"></i></span><span>0</span></p>
-        <p class="nav_cart_p"><span><i class="fa-solid fa-cart-shopping"></i></span><span>0</span></p>
+        <p class="nav_cart_p"><span><i class="fa-solid fa-heart"></i></span><span>{{ $count[1] }}</span></p>
+        <p class="nav_cart_p"><span><i class="fa-solid fa-cart-shopping"></i></span><span>{{ $count[0] }}</span></p>
     </div>
 </div>

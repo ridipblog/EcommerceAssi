@@ -11,9 +11,10 @@ class NavComponent extends Component
      *
      * @return void
      */
-    public function __construct()
+    public $count;
+    public function __construct($count)
     {
-        //
+        $this->count = $count;
     }
 
     /**

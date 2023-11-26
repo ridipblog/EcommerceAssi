@@ -94,6 +94,7 @@
 
 .show_content_div button {
     padding: 5px 20px;
+    width: auto;
     background: transparent;
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -139,6 +140,7 @@
     background: #FFD333;
     font-size: 15px;
     border: none;
+    width: auto;
     outline: none;
     padding: 5px 20px;
     cursor: pointer;
